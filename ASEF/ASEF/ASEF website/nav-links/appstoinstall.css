@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+*{
+    font-family: 'Quicksand', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+body{
+    color: #fff;
+    background-color: #98a85e;
+    background-image:
+        radial-gradient(at 9% 89%, rgb(28, 117, 241) 0px, transparent 50%),
+        radial-gradient(at 72% 6%, rgb(109, 68, 184) 0px, transparent 50%),
+        radial-gradient(at 24% 19%, rgb(135, 93, 189) 0px, transparent 50%),
+        radial-gradient(at 65% 6%, rgb(113, 201, 204) 0px, transparent 50%),
+        radial-gradient(at 20% 98%, rgb(47, 116, 53) 0px, transparent 50%),
+        radial-gradient(at 44% 9%, hsla(40, 96%, 77%, 1) 0px, transparent 50%),
+        radial-gradient(at 10% 9%, rgb(133, 156, 68) 0px, transparent 50%);
+    min-height: 100vh;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.glass-container{
+    display: block;
+    max-width: 72vw;
+    margin-top: 10vh;
+    margin-bottom: 30px;
+    background: rgba(0, 0, 0, 0.56);
+    padding: 50px;
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(11.6px);
+    -webkit-backdrop-filter: blur(11.6px);
+}
+
+.logo{
+    display: inline-block;
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: -10px;
+}
+
+ul.nav-links{
+    margin: 0;
+    float: right;
+    display: flex;
+    list-style: none;
+}
+
+li.nav-link{
+    display: inline-block;
+    margin-left: 30px;
+    font-size: 17px;
+    font-weight: 300;
+}
+
+.content{
+    display: flex;
+    width: 100%;
+}
+
+.main{
+    margin-top: 10vh;
+    display: inline-block;
+    padding: 20px;
+}
+
+.main h2{
+    font-size: 35px;
+}
+
+.main p{
+    font-size: 16px;
+    line-height: 23px;
+}
+
+button{
+    margin-top: 30px;
+    width: 30%;
+    height: 50px;
+    font-size: 15px;
+    color: #fff;
+    background-color: transparent;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    
+}
+
+button:hover{
+    border-color: #2668db;
+    background-color: #2668db;
+}
+
+.image-wrapper{
+    display: flex;
+    margin-top: 5vh;
+    position: relative;
+}
+
+.image-wrapper img{
+    max-width: 500px;
+}
+
+.attrebute{
+    position: absolute;
+    bottom: 20px;
+    right: 0;
+    font-size: 12px;
+}
+
+@media screen and (max-width: 1075px) {
+    .content{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .logo{
+        font-size: 22px;
+    }
+    li.nav-link{
+        font-size: 13px;
+    }
+    .main h2{
+        font-size: 28px;
+    }
+    .main p{
+        font-size: 15px;
+    }
+    button{
+        font-size: 13px;
+    }
+    .image-wrapper img{
+        max-width: 400px;
+    }
+}
+
+
+
+
+
+
+
+.appstoinstall{
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 100px;
+    background-color: #35ff0381;
+    margin-left: 20% ;
+    margin-right: 20% ;
+}
+
+.first{
+    color: rgba(0, 255, 242, 0.685);
+    text-shadow: 3px 3px #0f0505;
+    background-color: #1a0f294f;
+    
+    font-size: 25px;
+    text-align: center;
+    
+    width: 80%;
+    margin-left: 10%;
+   
+    padding-top: 0.5%;
+    padding-bottom: 3%;
+    margin-bottom: 10%;
+}
+
+
+
+#buki{
+    text-align: center;
+    background-color: #03ffdd59;
+    width: 20%;
+    margin-left: 38%;
+    font-size: 35px;
+}
+
+.VS{
+    background-color: rgba(0, 0, 0, 0.651);
+    text-align: center;
+    margin-bottom: -100px;
+   
+    
+    
+
+}
+
+
+
+
+
+.courses{
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+ 
+}
+
+.text1{
+    padding-left: 10%;
+    padding-right:10% ;
+    font-size: large;
+}
+.text2{
+    color: rgb(0, 255, 42);
+    font-size: large;
+}
+
+.dudu1, .dudu2, .dudu3{
+    margin-bottom: 100px;
+    font-size: 30px;
+    
+}
+
+.gugu{
+    font-size: 15px;
+    color: #09f319;
+}
+
+.posht{
+    text-align: start;
+    background-color: rgba(15, 30, 245, 0.384);
+    text-align: center;
+    width: 50%;
+    margin-left: 25%;
+    font-size: 180%;
+    margin-top: 30%;
+}
+
+.becka{
+    font-size: 40%;
+}
